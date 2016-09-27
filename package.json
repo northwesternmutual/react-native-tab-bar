@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/ajzozakiewicz/react-native-tab-bar.git"
   },
-  "author": "Northwestern Mutual",
-  "license": "ISC",
+  "author": "Aaron Zozakiewicz",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ajzozakiewicz/react-native-tab-bar/issues"
   },
