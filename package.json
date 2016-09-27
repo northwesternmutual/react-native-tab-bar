@@ -1,0 +1,26 @@
+{
+  "name": "react-native-tab-bar",
+  "version": "1.1.0",
+  "description": "Tab bar component for simple in app navigation",
+  "main": "NavBar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/aj_zozakiewicz/react-native-tab-bar.git"
+  },
+  "author": "Northwestern Mutual",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aj_zozakiewicz/react-native-tab-bar/issues"
+  },
+  "homepage": "https://gitlab.com/aj_zozakiewicz/react-native-tab-bar#README",
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react-native-vector-icons": "^2.1.0"
+  }
+}
