@@ -2,7 +2,7 @@
   "name": "react-native-tab-bar",
   "version": "1.0.0",
   "description": "Tab bar component for simple in app navigation",
-  "main": "NavBar.js",
+  "main": "TabBar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
