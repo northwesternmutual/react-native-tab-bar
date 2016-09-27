@@ -58,7 +58,7 @@ class NavBar extends Component {
                             myProps.children.map((item, index) => {
                                 const isSelected = this.state.selected === index;
                                 const color = isSelected ? myProps.selectedColor : myProps.unselectedColor;
-                                const Icon = this.renderIcon(item.props.font, item.props.name, 30, color);
+                                const Icon = this.renderIcon(item.props.font, item.props.icon, 30, color);
 
                                 return (
                                     <TouchableOpacity style={[styles.buttonStyle, { borderBottomColor: color}]}
