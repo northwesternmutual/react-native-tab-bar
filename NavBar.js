@@ -18,7 +18,7 @@ import {
 
 
 
-class NavBar extends Component {
+class TabBar extends Component {
 
     constructor(props) {
         super(props);
@@ -48,9 +48,9 @@ class NavBar extends Component {
                 return <EntypoIcon name={name} size={size} color={color} />;
             case 'foundation':
                 return <FoundationIcon name={name} size={size} color={color} />;
-            case 'octicons';
+            case 'octicons':
                 return <OcticonIcon name={name} size={size} color={color} />;
-            case 'zocial';
+            case 'zocial':
                 return <ZocialIcon name={name} size={size} color={color} />;
             default:
                 return <IconMaterial name={name} size={size} color={color} />;
@@ -117,4 +117,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default NavBar;
+export default TabBar;
