@@ -4,21 +4,19 @@ A simple tab bar for React Native that implements a tab bar navigation that impl
 
 ![demo animation of tab bar](https://github.com/ajzozakiewicz/react-native-tab-bar/blob/master/images/tab_bar_demo2.gif)
 
-
-
 ## Usage
 
 Install and setup peer dependency [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) for your project.  
   
 Then install the module:
 
-``` bash
+```bash
 $ npm install react-native-tab-bar
 ```
 
 Finally, use it!  
 
-``` javascript
+```javascript
     <NavBar contentStyle={myCustomStyle.style}
                         selectedColor={"#444"}
                         unselectedColor={"#444"}
@@ -27,4 +25,20 @@ Finally, use it!
         <MyCustomComponent data={data} icon="cogs" font="font-awesome"/>
         <MyCustomComponent data={data} icon="account-circle"/> //defaults to material
     </NavBar>
+```
+
+## Params
+
+```javascript
+<NavBar 
+    contentStyle={customStyle.style} //will style the content wrapper of the selected tab
+    selectedColor="#444" // hex code for selected color
+    unselectedColor="#444"
+>
+    <MyCustomComponent 
+            icon="account-circle" // name of icon from font family
+            font="material" // OPTIONAl - degfault:"material"
+            // other font families "material", "font-awesome", "ionicons", "evil-icons", "entypo", "foundation", "octicons", "zocial"
+    />
+</NavBar>
 ```
