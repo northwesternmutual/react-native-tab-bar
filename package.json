@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/aj_zozakiewicz/react-native-tab-bar.git"
+    "url": "git+https://github.com/ajzozakiewicz/react-native-tab-bar.git"
   },
   "author": "Northwestern Mutual",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/aj_zozakiewicz/react-native-tab-bar/issues"
+    "url": "https://github.com/ajzozakiewicz/react-native-tab-bar/issues"
   },
-  "homepage": "https://gitlab.com/aj_zozakiewicz/react-native-tab-bar#README",
+  "homepage": "https://github.com/ajzozakiewicz/react-native-tab-bar#README",
   "devDependencies": {
   },
   "dependencies": {
