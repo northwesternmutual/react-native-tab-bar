@@ -1,4 +1,4 @@
-# react-native-simple-tabbar
+# react-native-tab-bar
 A simple tab bar for React Native that implements a tab bar navigation that implements icons from  
 [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) for buttons.
 
