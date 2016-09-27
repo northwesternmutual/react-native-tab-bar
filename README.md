@@ -17,14 +17,14 @@ $ npm install react-native-tab-bar
 Finally, use it!  
 
 ```javascript
-    <NavBar contentStyle={myCustomStyle.style}
-                        selectedColor={"#444"}
-                        unselectedColor={"#444"}
-    >
-        <MyCustomComponent data={data} icon="account-circle" font="material"/>
-        <MyCustomComponent data={data} icon="cogs" font="font-awesome"/>
-        <MyCustomComponent data={data} icon="account-circle"/> //defaults to material
-    </NavBar>
+<NavBar contentStyle={myCustomStyle.style}
+                    selectedColor={"#444"}
+                    unselectedColor={"#444"}
+>
+    <MyCustomComponent data={data} icon="account-circle" font="material"/>
+    <MyCustomComponent data={data} icon="cogs" font="font-awesome"/>
+    <MyCustomComponent data={data} icon="account-circle"/> //defaults to material
+</NavBar>
 ```
 
 ## Params
