@@ -2,6 +2,11 @@ import React, {Component} from 'react';
 import IconMaterial from 'react-native-vector-icons/MaterialIcons';
 import IconAwesome from 'react-native-vector-icons/FontAwesome';
 import IconIonIcon from 'react-native-vector-icons/Ionicons';
+import EntypoIcon from 'react-native-vector-icons/Entypo';
+import FoundationIcon from 'react-native-vector-icons/Foundation';
+import OcticonIcon from 'react-native-vector-icons/Octicons';
+import ZocialIcon from 'react-native-vector-icons/Zocial';
+import EvilIcon from 'react-native-vector-icons/EvilIcons';
 
 import {
     ScrollView,
@@ -37,6 +42,16 @@ class NavBar extends Component {
                 return <IconAwesome name={name} size={size} color={color} />;
             case 'ionicons':
                 return <IconIonIcon name={name} size={size} color={color} />;
+            case 'evil-icons':
+                return <EvilIcon name={name} size={size} color={color} />;
+            case 'entypo':
+                return <EntypoIcon name={name} size={size} color={color} />;
+            case 'foundation':
+                return <FoundationIcon name={name} size={size} color={color} />;
+            case 'octicons';
+                return <OcticonIcon name={name} size={size} color={color} />;
+            case 'zocial';
+                return <ZocialIcon name={name} size={size} color={color} />;
             default:
                 return <IconMaterial name={name} size={size} color={color} />;
         }
