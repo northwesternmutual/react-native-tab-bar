@@ -32,7 +32,7 @@ Finally, use it!
 ```javascript
 <NavBar 
     contentStyle={customStyle.style} //will style the content wrapper of the selected tab
-    buttonStyle={} // Optional - allows for override of default button styles
+    buttonStyle={customStyle.button} // Optional - allows for override of default button styles
     selectedColor="#444" // hex code for selected color
     unselectedColor="#444"
 >
