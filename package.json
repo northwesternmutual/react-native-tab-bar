@@ -1,6 +1,6 @@
 {
   "name": "react-native-tab-bar",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Tab bar component for simple in app navigation",
   "keywords": ["react native tab bar", "tab bar", "nav", "tabs", "react-native", "navigation", "native"],
   "main": "TabBar.js",
