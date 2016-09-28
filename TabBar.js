@@ -76,7 +76,7 @@ class TabBar extends Component {
                                 const Icon = this.renderIcon(item.props.font, item.props.icon, 30, color);
 
                                 return (
-                                    <TouchableOpacity style={[styles.buttonStyle, { borderBottomColor: color}]}
+                                    <TouchableOpacity style={[styles.buttonDefaults, { borderBottomColor: color}, this.props.buttonStyle]}
                                                       key={index}
                                                       onPress={() => {
                                                           this.setSelected(index);
@@ -106,12 +106,12 @@ const styles = StyleSheet.create({
     columnWrap: {
         flexDirection: 'row'
     },
-    buttonStyle: {
+    buttonDefaults: {
         flex: 1,
         marginBottom: 0,
         marginTop: 5,
         alignItems: 'center',
-        padding: 12,
+        padding: 10,
         borderBottomWidth: 5
     }
 });
