@@ -1,5 +1,5 @@
 # react-native-tab-bar
-A simple tab bar for React Native that implements a tab bar navigation that implements icons from  
+A simple tab bar for React Native that implements implements icons from  
 [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) for buttons.
 
 ![demo animation of tab bar](https://raw.githubusercontent.com/ajzozakiewicz/react-native-tab-bar/master/images/tab_bar_demo2.gif)
@@ -32,6 +32,7 @@ Finally, use it!
 ```javascript
 <NavBar 
     contentStyle={customStyle.style} //will style the content wrapper of the selected tab
+    buttonStyle={customStyle.button} // Optional - allows for override of default button styles
     selectedColor="#444" // hex code for selected color
     unselectedColor="#444"
 >
