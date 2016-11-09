@@ -22,6 +22,6 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "react-native-vector-icons": "^2.1.0"
+    "react-native-vector-icons": "^3.0.0"
   }
 }
