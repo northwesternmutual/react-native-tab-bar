@@ -2,7 +2,7 @@
 A simple tab bar for React Native that implements icons from  
 [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) for buttons.
 
-![demo animation of tab bar](https://raw.githubusercontent.com/ajzozakiewicz/react-native-tab-bar/master/images/tab_bar_demo2.gif)
+![demo animation of tab bar](https://raw.githubusercontent.com/northwesternmutual/react-native-tab-bar/master/images/tab_bar_demo2.gif)
 
 ## Usage
 
